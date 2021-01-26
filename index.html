@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="control">
+        <div class="container">
+
+            <div class="butt-on">Включено</div>
+
+            <form action="#" class="mode">
+                <select>
+                    <option value="RunLine">Run line</option>
+                    <option value="SmoothTransition">Smooth transition</option>
+                    <option value="Color" selected>Color</option>
+                </select>
+            </form>
+
+            <div class="LedControl">
+                <div class="brightness">
+                    Яскравість
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="255" value="255" class="slider" id="RangeBrightness">
+                    </div>
+                </div>
+
+                <div class="speed">
+                    Швидкість
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="255" value="50" class="slider" id="RangeSpeed">
+                    </div>
+                </div>
+
+            </div>
+
+                <div class="select-color">
+                    <div class="container">
+                    <input type="color" name="bg" value="#ff0000">
+                    </div>
+                </div>
+                
+            
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <div class="container">
+            <div class="line"><hr></div>
+            <ul class="menu">
+                <li><img src="Img/Home.png"></li>
+                <li><img src="Img/Music.png" class="mar"></li>
+                <li><img src="Img/Clock.png" class="mar"></li>
+                <li><img src="Img/Setting.png" class="mar"></li>
+            </ul>
+    </div>
+    </nav>
+</body>
+</html>
